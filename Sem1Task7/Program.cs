@@ -7,5 +7,5 @@ string? inputNum = Console.ReadLine();
 if ((inputNum != null) && (inputNum.Length()<4)){
     int num = int.Parse(inputNum)%10;
 }else{
-    
+    Console.WriteLine("error");
 }
