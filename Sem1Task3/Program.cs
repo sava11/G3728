@@ -2,7 +2,7 @@
 // Напишите программу, которая будет выдавать
 // название дня недели по заданному номеру.
 
-Console.Write("input yor day num: ");
+Console.Write("input your day num: ");
 string? inputNum = Console.ReadLine();
 //вар. 1
 if (inputNum != null)
