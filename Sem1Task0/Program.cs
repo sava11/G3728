@@ -8,9 +8,7 @@ Console.Write("input yor num: ");
 string? inputNum = Console.ReadLine();
 // проверка на заполненность
 if (inputNum!=null){
-    // Парсим вверённое число
-    //int num = int.Parse(inputNum);
-    // Выводим данные
+    // Парсим вверённое число и выводим данные
     Console.Write("output: ");
     Console.Write((int)Math.Pow(int.Parse(inputNum),2));
 }

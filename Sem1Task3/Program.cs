@@ -2,11 +2,13 @@
 // Напишите программу, которая будет выдавать
 // название дня недели по заданному номеру.
 
+// Вводим данные с консоли
 Console.Write("input your day num: ");
 string? inputNum = Console.ReadLine();
-//вар. 1
+//Вар. 1
 if (inputNum != null)
 {
+    //Создание и заполнение массива
     string[] dayNames = new string[7];
     dayNames[0] = "понедельник";
     dayNames[1] = "вторник";
@@ -15,11 +17,7 @@ if (inputNum != null)
     dayNames[4] = "пятница";
     dayNames[5] = "суббта";
     dayNames[6] = "воскресенье";
-    int day = (int.Parse(inputNum)-1) % 7;
-    Console.WriteLine(dayNames[day]);
+    //Нахождение остатка от деления модуля преобразованной строки в число
+    int day = (Math.Abs(int.Parse(inputNum))-1) % 7;
+    Console.WriteLine(dayNames[day]);//Вывод
 }
-
-        // Console.Write("input yor day num: ");
-        // if (inputNum!=null){
-        // int day = Math.Abs(int.Parse(Console.ReadLine())%7)-1;
-        // Console.WriteLine(day);
