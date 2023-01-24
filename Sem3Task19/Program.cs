@@ -6,7 +6,7 @@
 bool checkPoli(int num)
 {
     char[] number = num.ToString().ToCharArray();// преобразование из челого в char[]
-    for (int i = 0; i < number.Length; i++)
+    for (int i = 0; i < number.Length/2; i++)
     {
         // Если разность i-элемента и i-размер_char[] не равна нулю, то
         // число не является полиндромом
