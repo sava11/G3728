@@ -47,4 +47,4 @@ showArray(createArray(len));
 // Для выбора случайного имени метод Random.Next(1,<длина массива имен>+1).
 string names="Игорь, Антон, Сергей, Савелий, Олег";
 string[] arrNames=MultiInputs("d: ",names);
-Console.WriteLine(arrNames[rnd.Next(1,arrNames.Length-1)]);
+Console.WriteLine(arrNames[rnd.Next(0,arrNames.Length-1)]);

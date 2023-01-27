@@ -119,7 +119,7 @@ ipch/
 MyWork1
 # Visual Studio Trace Files
 *.e2e
-
+.gitignore
 # TFS 2012 Local Workspace
 $tf/
 
