@@ -117,6 +117,7 @@ ipch/
 *.vspx
 *.sap
 MyWork1
+temp
 # Visual Studio Trace Files
 *.e2e
 .gitignore

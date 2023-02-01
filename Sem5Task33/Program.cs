@@ -39,7 +39,7 @@ int[] searchAllXIn1DArray(int x, int[] arr){
     }
     if (indexs.Length>0){return indexs;}else{return new int[1]{-1};}
 }
-int[] searchXIn1DArray(int x, int[] arr){
+int searchXIn1DArray(int x, int[] arr){
     int index=-1;
     for(int i=0; i<arr.Length;i++){
         if(arr[i]==x){
@@ -49,4 +49,4 @@ int[] searchXIn1DArray(int x, int[] arr){
     return index;
 }
 show1DArray(searchAllXIn1DArray(x,arr));
-show1DArray(searchXIn1DArray(x,arr));
+Console.WriteLine(searchXIn1DArray(x,arr));
