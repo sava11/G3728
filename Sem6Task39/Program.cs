@@ -3,15 +3,6 @@
 // одномерный массив (последний элемент будет на
 // первом месте, а первый - на последнем и т.д.)
 
-string editLine(string text)
-{
-    string txt = text;
-    if (txt[txt.Length - 1] != ' ')
-    {
-        txt += " ";
-    }
-    return txt;
-}
 Random rnd = new Random();
 // метод генерации массива случайными числами
 int[] create1DArray(int len, int num1, int num2)
