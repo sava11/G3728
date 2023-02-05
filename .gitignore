@@ -118,6 +118,7 @@ ipch/
 *.sap
 MyWork1
 temp
+Sem6TaskTringle
 # Visual Studio Trace Files
 *.e2e
 .gitignore
