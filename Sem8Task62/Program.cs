@@ -1,9 +1,9 @@
-﻿
+﻿// создание двумерного массва
 int[,] Create2DArray(int N, int M)
 {
     return new int[N, M];
 }
-//
+// заполнение двумерного массва по спирали
 void FillSpiral2DAerray(int[,] arr)
 {
     int Ibeg = 0, Ifin = 0, Jbeg = 0, Jfin = 0;
@@ -34,6 +34,7 @@ void FillSpiral2DAerray(int[,] arr)
         ++k;
     }
 }
+// вывод двумерного массива
 void Show2DArray(int[,] arr)
 {
     for (int i = 0; i < arr.GetLength(0); ++i)
@@ -43,6 +44,7 @@ void Show2DArray(int[,] arr)
         Console.WriteLine("");
     }
 }
+// ввод чисел
 int InputNum(string msg = "")
 {
     Console.Write(msg);
